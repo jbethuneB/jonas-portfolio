@@ -21,6 +21,14 @@
     #profile, .section-container {
         display: block;
     }
+    #profile {
+        padding-top: 15%;
+    }
+    .section__pic-container {
+        margin: auto;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+    }
     .arrow {
         display: none;
     }
@@ -44,6 +52,9 @@
     #contact, footer {
         height: 40vh;
     }
+    footer {
+        padding-top: 75%;
+    }
     #profile {
         height: 83vh;
         margin-bottom: 0;
@@ -59,7 +70,7 @@
         flex-wrap: wrap;
     }
     .contact-info-container {
-        margin: 0;
+        margin: 1rem;
     }
     .contact-info-container p, .nav-links li a {
         font-size: 1rem;
